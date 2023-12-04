@@ -1,0 +1,8 @@
+On the homepage there are three images each with alt descriptions.
+There is a navigation bar at the top and bottom of the page, across a dark background that make it clear and visible.
+When hovering over the navigation bar, the text boldens and the cursor changes to a pointer finger.
+There is a lime green 'Return to Top' button at the bottom of each page.
+I incorporated a lavender color palette that is pleasing to look at, and it keeps things organized.
+The 'volunteer now' and 'search' button have been modified to fit the color palette.
+Both buttons enlarge and bolden when hovering over. The cursor also changes to a pointer finger.
+Images included are in line with our mission.

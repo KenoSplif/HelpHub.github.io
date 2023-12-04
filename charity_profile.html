@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+    <script defer src="charity_profile.js"></script>
+</head>
+<body>
+    <header>
+        <h1>HelpHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Charity Name</h2>
+        <img src="https://cdn.pixabay.com/photo/2018/02/04/09/03/migration-3129340_640.jpg" alt="Kids uniting hands over the world map.">
+
+
+        <h3>Contact Information</h3>
+        <p>Visit charity <a href="https://www.doctorswithoutborders.org/#:~:text=We%20provide%20independent%2C%20impartial%20medical,in%20more%20than%2070%20countries.">website</a> for contact information.</p>
+
+
+        <h4>Projects and Initiatives</h4>
+        <p>We are independent, impartial, and neutral. We are guided by universal medical ethics. We are committed to bearing witness.
+        We are transparent and accountable. We are committed to diversity, equity and inclusion.</p>
+<!--
+        <form>
+
+            <button type="submit">Donate</button>
+      <form action="volunteer_process.php" method="post">
+            <h3>Volunteer Now</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+
+        </form>
+  -->
+
+            <button id='volunteer-button' type="submit">Volunteer Now</button>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 HelpHub</p>
+    </footer>
+
+     <div class="bottom-nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <button id="return-to-top" onclick="scrollToTop()">Return to Top</button>
+
+    <script>
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById('return-to-top').style.display = 'block';
+            } else {
+                document.getElementById('return-to-top').style.display = 'none';
+            }
+        };
+
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Home</title>
+    <style>
+                .image-container {
+            display: flex;
+            flex-direction: column;
+        }
+               .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HelpHub</h1>
+        <nav>
+            <ul>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+                <li><a href="charities.html">Charities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Welcome to HelpHub!</h1>
+        <p>-mission statement-</p>
+
+        <div class="image-container">
+            <img src="https://cdn.create.vista.com/api/media/small/585114782/stock-photo-group-four-volunteer-blue-shirt-showing-join-hands-covered-mud" alt="Kids with muds on their hands.">
+            <img src="https://charity-registration.com/wp-content/uploads/2013/02/images-1.jpg?x46958" alt="Handing plant. ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAIuVLJozu5x_aZRbO7ko4qumft9Ck1v7rA&usqp=CAU" alt="People holding hands.">
+        </div>
+
+        <aside>
+            <p>-image description-</p>
+        </aside>
+    </section>
+
+
+
+    <div class="bottom-nav">
+        <nav>
+            <ul>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+                <li><a href="charities.html">Charities</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <button id="return-to-top" onclick="scrollToTop()">Return to Top</button>
+
+    <script>
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById('return-to-top').style.display = 'block';
+            } else {
+                document.getElementById('return-to-top').style.display = 'none';
+            }
+        };
+
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <footer>
+        <p>&copy; 2023 HelpHub.</p>
+    </footer>
+</body>
+
+</html>
